@@ -202,7 +202,7 @@ button:hover{
   
      height:35vh;
     /* margin-top: auto;*/
-    margin:100px 50px;
+    margin:50px 50px;
     justify-content: center;
     width:100%;
     display: flex;
@@ -213,7 +213,7 @@ button:hover{
 
  .services-details {
     height:100vh;
-    /* margin-top: auto;*/
+    display: inline-block;
     margin:50px 50px;
     justify-content: center;
     width:100%;
@@ -275,28 +275,28 @@ button:hover{
 }
 
 .services-list-left{
-    padding:20px 20px 20px 40px;
-        float: right;
-        width:45%;
-        margin-bottom:50px;
-        margin-left:0;
-        flex-basis:50%;
-        margin-left:10px;
-        align-items:center;
-        margin:0 auto;
-    }
+    padding:10px 20px 20px 20px;
+    float: right;
+    width:45%;
+    margin-bottom:50px;
+    margin-left:0;
+    flex-basis:50%;
+    margin-left:10px;
+    align-items:center;
+    margin:0 auto;
+}
     
 .services-list-right{ 
-    padding:20px 20px 20px 40px;
-        float:right;
-        width:45%;
-        margin-bottom:50px;
-        margin-left:0;
-        flex-basis:50%;
-        margin-left:10px;
-        align-items:center;
-        margin:0 auto;
-        }
+    padding:20px 20px 20px 20px;
+    float:right;
+    width:45%;
+    margin-bottom:50px;
+    margin-left:0;
+    flex-basis:50%;
+    margin-left:10px;
+    align-items:center;
+    margin:0 auto;
+ }
 
 
 .services-list-left h3{
@@ -345,6 +345,8 @@ button:hover{
 
 #contact-details {
     background-color: #009688;
+    margin: 30px 50px;
+    width: 100%;
 }
 
 .contact-items {
@@ -539,7 +541,7 @@ button:hover{
     display:block;
     padding:20px;
     box-sizing:border-box;
-    margin:0 auto;
+    margin: 0 auto;
 }
 
 .social-media-links i{
