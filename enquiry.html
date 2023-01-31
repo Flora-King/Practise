@@ -16,7 +16,7 @@
             </div>
             <ul class="navigation-links">
                 <li><a href="index.html" aria-label="Go to Home Page">Home</a></li>
-                <li><a href="#services" aria-label="Go to Services section">Services</a></li>
+                <li><a href="index.html#details" aria-label="Go to Services section">Services</a></li>
                 <li><a href="enquiry.html" class="active" aria-label="Go to Enquiry Page">Enquiry</a></li>
             </ul>
         
@@ -37,7 +37,7 @@
  
         <form class="enquiry" method="POST" action="mailto:info@topservice.com" onSubmit="alert('Thank you for your enquiry.')">
             <h2>Submit your Enquiry</h2>
-            <p>We aim to respond within 24 hours</p>
+            <p>We aim to respond to your enquiry within 24 hours</p>
             <label for="fname">First Name</label>
             <input type="text" id="fname" class="text-input" name="first_name" required>
             <label for="lname">Last Name</label>
@@ -53,8 +53,8 @@
             <input type="checkbox" id="house-keeping" name="service-type" value="house-keeping">
             <label for="house-keeping">House Keeping</label>
           <br>
-            <label for="enquiry-desc">Enquiry Details</label>
-            <textarea name="enquiry-desc" id="enquiry-desc" cols="70" rows="10">Add your enquiry details here</textarea>
+            <!--<label for="enquiry-desc">Enquiry Details</label>-->
+            <textarea name="enquiry-desc" id="enquiry-desc" cols="80" rows="13">Add your enquiry details here</textarea>
             <br>
             <label for="location">Your location</label>
             <select id="location" name="location" required>
@@ -64,8 +64,7 @@
                 <option value="midlands">Midlands</option>
                 <option value="east-sussex">East Sussex</option>
 </select>
-            <br>
-            <input type="submit" value="Submit">
+            <button id="btn" type="button">Submit</button>
            
         </form>
     </div>

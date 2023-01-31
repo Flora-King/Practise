@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <div class="hero-image">
     <header>
         <nav>
             <div class="logo">
@@ -24,36 +25,37 @@
             </div>
             <ul class="navigation-links">
                 <li><a href="index.html" class="active" aria-label="Go to Home Page">Home</a></li>
-                <li><a href="#services" aria-label="Go to Services section">Services</a></li>
+                <li><a href="#details" aria-label="Go to Services section">Services</a></li>
                 <li><a href="enquiry.html" aria-label="Go to Enquiry Page">Enquiry</a></li>
+                <li><a href="#contact-details" aria-label="Go to Contact Us section">Contact Us</a></li>
             </ul>
-            <button class="cta" onclick="window.location.href='#contact'" aria-label="Go to Contact Us section">Contact Us</button>
+            <!--<button class="cta" onclick="window.location.href='#contact'" aria-label="Go to Contact Us section">Contact Us</button>-->
 
 
         </nav>
     </header>
     <!-- Hero Image and Section start-->
-    <section id="hero">
+    
+    <!--<section id="hero">-->
         <div class="hero-container">
-            <div class="hero-statement">
-                
-                    <h1>TOP Service offers a wide range of services for individuals and businesses throughout the UK.</h1>
 
-                    <button class="cta" onclick="window.location.href='#services'"
-                        aria-label="Go to Services section for more information">Find Out More</button>
-                
-            </div>
         </div>
-    </section>
+        <div class="hero-statement">
+            <h1>TOP Service offers a wide range of services for individuals and businesses throughout the UK.</h1>
+
+            <button class="cta" onclick="window.location.href='#services'"
+                aria-label="Go to Services section for more information">Find Out More</button>
+        </div>
+    <!--</section>-->
     <!-- Hero Image and Section end-->
 
     <!-- Services Section start-->
-
-    <section id="services">
+    <div id="services">
+        <!--<section id="services">-->
       
             <div class="services-container">
                 <div class="services-intro">
-                    <h1 class="section-title">Services</h1>
+                    <!--<h1 class="section-title">Services</h1>-->
 
                     <p>TOP Service offers a wide range of services for individuals and businesses throughout the UK.
                     
@@ -64,8 +66,12 @@
                     We do the work so that you have time to do what you love</p>
                 </div>
             </div>
-            <div class="services-details">
-            
+        <!--</section>-->
+    </div>   
+    <div class="services-details">
+        <div id="details">
+            <h1 class="section-title">Services</h1>
+        </div>
                     <div id="left-item">
                         <div class="services-list-left">
                             <h3>Gardening <i class="fas fa-seedling"></i></h3>
@@ -123,33 +129,31 @@
     <!-- Services Section end -->
 
     <!-- Contact Us Section start-->
-    <section id="contact">
-        <div class="contact-container">
+    <!--<section id="contact">-->
+        <div class="contact-container" id="contact-details">
             <div class="contact">
-                <h2>CONTACT DETAILS</h2>
+                <h2>Contact Details</h2>
 
             </div>
 
-            
             <div class="contact-items">
                 <div class="left-details">
-                    <h3><i class="fas fa-phone-alt"></i>Telephone</h3>
+                    <h3><i class="fas fa-phone-alt"></i> Telephone</h3>
                     <p>012345678901</p>
                 </div>
                 <div class="middle-details">
-                    <h3><i class="far fa-envelope"></i>Email</h3>
+                    <h3><i class="far fa-envelope"></i> Email</h3>
                     <p>info@topservice@gmail.com</p>
                 </div>
                 <div class="right-details">
-                    <h3><i class="fas fa-home"></i>Postal Address</h3>
+                    <h3><i class="fas fa-home"></i> Postal Address</h3>
                     <p>Chistone Causeway, TN11 8JS</p>
                 </div>
             </div>
            
         </div>
-    </section>
+    <!--</section>-->
     <!-- Contact Us Section end-->
-
     <!-- Footer Section start-->
     <section id="footer">
         <div class="footer-links-container">
@@ -166,7 +170,7 @@
             </div>
         </div>
     </section>
-
+</div>
     <!-- Footer Section end-->
     <script src="https://kit.fontawesome.com/7e83172e26.js" crossorigin="anonymous"></script>
 </body>
