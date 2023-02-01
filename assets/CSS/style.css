@@ -107,15 +107,18 @@ nav{
 
 /* hero image section*/
 
-.hero-container{
+.hero-statement{
     display:flex;
     justify-content:center;
     align-items: center;
-    width:60%;
+    width:100%;
     text-align:center;
     /*position:absolute;*/
     background-color: chartreuse;
+    bottom: 100px;
+    margin-top: 100px;
 }
+
 
 /*.hero-image{
     background:url(../images/pexels-photomix-company-518245.jpg);
@@ -141,12 +144,12 @@ nav{
     font-weight:bolder;
     margin-top:100px;
     background-color: rgba(13,44,44,0.8);
-    /*width:100%;
-    display:flex;*/
+    width:100%;
+    /*display:flex;*/
     line-height:40px;
 }
 
-.hero-statement .cta{
+/*.hero-statement .cta{
     display:inline-block;
     padding:5px 5px;
     color:#fff;
@@ -159,7 +162,7 @@ nav{
     transition-property: background-color, color;
     align-items: center;
     font-size:15px;
-}
+}*/
 
 .hero-statement .cta:hover{
     cursor:pointer;
@@ -594,43 +597,97 @@ textarea {
 @media (max-width: 320px) {
 
     .logo{
-        font-size:8px;
+        font-size:20px;
     }
     nav{
-       display:inline-block;
-       flex-direction:column-reverse;
        text-align: center;
-       top:0;
-       background-color: #000;
-       width: 45%;
+       top: 0;
+       width: 100%;
     }
 
-    nav a{
-        /*display:inline-block;
-        flex-direction:column-reverse;
-        justify-content:space-around;*/
-        text-align: center;
-        padding:2px;
-        width: 45%;
-        font-size: 1px;
-        margin: auto;
+    .navigation-links{
+        width: 100%;
+        height: 10vh;
+        font-size: 35px;
+        margin-left:20px;
+        top: 30px;
+        
     }
-    .services-intro{
+
+    .hero-statement{
+        
+        width:100%;
+        text-align:center;
+        /*display:flex;
+        background-color: chartreuse;
+
+        color:#fff;
+        text-align:center;
+        font-size:30px;
+        font-weight:bolder;
+
+        line-height:20px;*/
+    }
+
+    /*.services-intro{
         height:100px;
-        margin-top: 20px;
-    }
+        margin-top: 40px;
+        margin-bottom: 150px;
+        text-align: center;
+        justify-content: center;
+        width: 45%;
+        display: flex;
+    }*/
 
-    #services {
+   /* #services {
         background-color: blueviolet;
         width: 100%;
-        height:100px;
+        height:auto;
         margin-top: 30px;
-        width: 45%;
-    }
+        width: 100%;
+    }*/
+
+    #services{
+      
+         height:35vh;
+        /* margin-top: auto;
+        margin:50px 50px;
+        justify-content: center;*/
+        width:100%;
+        /*display: flex;
+        justify-content: center;
+        align-items: center;*/
+    
+     }
+
+     #services p{
+        text-align: center;
+        width: 100%;
+     }
 
     .services-container{
         text-align: center;
-        width: 45%;
+        width: 100%;
     }
+
+    .services-details {
+        background-color: bisque;
+        width: 20rem;
+    
+    }
+
+    .footer-links-container{
+        /*background-color:rgba(13,44,44,0.8);
+        text-align: center;*/
+        width:100%;
+        height: 15vh;
+        /*position: absolute;
+        color: white;
+        display:block;
+        padding:20px;
+        box-sizing:border-box;
+        margin: 0 auto;*/
+    }
+
 
 }
