@@ -131,62 +131,22 @@ nav{
     line-height:40px;
 }
 
-button{
-    display:flex;
-    padding:10px 10px;
-    color:#fff;
-    /*background-color: transparent;*/
-    background-color: black;
-    /*border:2px solid orange;*/
-    text-transform:uppercase;
-    letter-spacing:.02rem;
-    margin-top:auto;
-    margin-bottom:auto;
-    transition:.5s ease-out;
-    transition-property: background-color, color;
-    font-size:12px;
-}
-
-button:hover{
-    cursor:pointer;
-    background-color: orange;
-}
-
 /*services section*/
-
-.services-details {
-    background-color: bisque;
-
-}
 #services {
     background-color: blueviolet;
     /*width: 100%;*/
 }
 #services{
   
-     height:35vh;
-    /* margin-top: auto;*/
-    margin:50px 30px;
+    height:25vh;
+    margin:20px 10px;
     justify-content: center;
     width:100%;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    padding: 10px 10px;
  }
-
- .services-details {
-    /*height:100vh;*/
-    display: inline-block;
-    margin:50px 50px;
-    justify-content: center;
-    width:100%;
- }
-
- .services-details h1 {
-    text-align: center;
-    color: #009688;
-}
 
 #services .services-container{
     align-items:center;
@@ -211,7 +171,6 @@ button:hover{
     text-align:center;
     font-size:30px;
     text-transform:uppercase;
-    /*padding-top:50px;*/
 
 }
 
@@ -227,6 +186,23 @@ button:hover{
 .services-intro {
     width:100%;
     margin:20px 30px;
+}
+
+.services-details {
+    background-color: bisque;
+
+}
+ .services-details {
+    /*height:100vh;*/
+    display: inline-block;
+    margin:50px 50px;
+    justify-content: center;
+    width:100%;
+ }
+
+ .services-details h1 {
+    text-align: center;
+    color: #009688;
 }
 
 #left-item{
