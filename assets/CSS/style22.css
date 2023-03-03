@@ -357,3 +357,44 @@
     justify-content:space-around;
     align-items:center;
 }*/
+
+
+
+/*.hero-statement .cta{
+    display:inline-block;
+    padding:5px 5px;
+    color:#fff;
+    background-color: black;
+    border:1px solid orange;
+    text-transform:uppercase;
+    letter-spacing:.02rem;
+    margin-top:5px;
+    transition:.7s ease-in;
+    transition-property: background-color, color;
+    align-items: center;
+    font-size:15px;
+}
+
+
+/*.hero-image{
+    background:url(../images/pexels-photomix-company-518245.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+
+    /*overflow-x:hidden;
+    overflow-y:hidden;
+
+    height:auto;
+    width:100%;
+
+    top: 0;
+    bottom: 0;
+   padding-bottom:20px;
+    transition:0s;
+}
+
+.hero-statement .cta:hover{
+    cursor:pointer;
+    background-color: orange;
+
+}*/
