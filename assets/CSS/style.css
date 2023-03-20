@@ -281,7 +281,7 @@ nav{
 }
 
 
-/* Contact details section*/
+/**Contact details section*/
 
 #contact-details {
     margin: 30px 50px;
@@ -630,28 +630,38 @@ textarea {
 }
 
 
-/* About Section */
-#contact-container {
+/* contact Section */
+
+#contact-details {
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
-	padding: 100px 20px;
+	padding: 10px 20px;
 }
-#contact{
+
+#contact h2{
     text-align: center;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: auto;
+    padding-bottom: 10px;
 }
 
 .contact-items .left-details {
-	width: 250px;
+	width: 400px;
 	height: 150px;
 }
+
+.contact-items .middle-details {
+	width: 400px;
+	height: 150px;
+}
+
 .contact-items .right-details {
 	width: 400px;
-    height: 150px;
+	height: 150px;
 }
+
 .contact-items .right-details h2 {
 	font-size: 1.8rem;
 	font-weight: 500;
@@ -675,14 +685,4 @@ textarea {
 	border: 10px solid white;
 }
 
-.contact-items .left-details .about-img::after {
-	content: '';
-	position: absolute;
-	left: -33px;
-	top: 19px;
-	height: 98%;
-	width: 98%;
-	border: 7px solid crimson;
-	z-index: -1;
-}
-/* End About Section */
+/* End contact Section */
