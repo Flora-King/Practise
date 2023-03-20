@@ -628,3 +628,61 @@ textarea {
 
 
 }
+
+
+/* About Section */
+#contact-container {
+	flex-direction: column-reverse;
+	text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 100px 20px;
+}
+#contact{
+    text-align: center;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.contact-items .left-details {
+	width: 250px;
+	height: 150px;
+}
+.contact-items .right-details {
+	width: 400px;
+    height: 150px;
+}
+.contact-items .right-details h2 {
+	font-size: 1.8rem;
+	font-weight: 500;
+	letter-spacing: 0.2rem;
+	margin-bottom: 10px;
+}
+.contact-items .right-details p {
+	margin-bottom: 20px;
+}
+.contact-items .right-details .cta {
+	color: black;
+	margin-bottom: 50px;
+	padding: 10px 20px;
+	font-size: 2rem;
+}
+
+.contact-items .left-details .about-img {
+	height: 100%;
+	width: 100%;
+	position: relative;
+	border: 10px solid white;
+}
+
+.contact-items .left-details .about-img::after {
+	content: '';
+	position: absolute;
+	left: -33px;
+	top: 19px;
+	height: 98%;
+	width: 98%;
+	border: 7px solid crimson;
+	z-index: -1;
+}
+/* End About Section */
